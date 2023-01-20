@@ -39,31 +39,31 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""Hello {message.from_user.mention()}, My name is {BOT_NAME}.
-I'm a telegram streaming bot with some useful features.
-Feel free to add me to your groups.
+        f"""اهلا {message.from_user.mention()}, My name is {BOT_NAME}.
+بيك يصحبي انا بوت شغل اغاني ف رومات الطيزجرام لو مزاجك وحش وعاوز تشغل اغاني ضفني ف رومك وروق ع مزاجك ومتاح سماع سكس. عشان مزاجك يظبط اكترر 
+.
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [                   
                     InlineKeyboardButton(
-                        "Commands & Help ❔", callback_data="cbbasic"
+                        "الاوامر يبني ❔", callback_data="cbbasic"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "How to Use Me ❓", callback_data="cbhowtouse"
+                        "متلعبش ف دي يبني ❓", callback_data="cbhowtouse"
                     ),
                   ],[
                     InlineKeyboardButton(
-                       "Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
+                       "تحديثات البوت يحبيبي", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                       "Support", url=f"https://t.me/{GROUP_SUPPORT}"
+                       "قناة البوت ملكش دعوه بيها", url=f"https://t.me/{GROUP_SUPPORT}"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕",
+                        "➕ ضفني ف رومك عشان اشغلك سكس واروق عليك ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ]
@@ -82,7 +82,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/AMANTYA1/RaiChu-MusicV2")
+                        " ʀᴇᴘᴏ ⚒️", url=f"مفيش يكسمك")
                 ]
             ]
         ),
