@@ -40,7 +40,7 @@ async def _human_time_duration(seconds):
 async def start(_, message: Message):
         await message.reply_text(
         f"""اهلا {message.from_user.mention()}, My name is {BOT_NAME}.
-بيك يصحبي انا بوت شغل اغاني ف رومات الطيزجرام لو مزاجك وحش وعاوز تشغل اغاني ضفني ف رومك وروق ع مزاجك ومتاح سماع سكس. عشان مزاجك يظبط اكترر 
+بيك يصحبي انا بوت ببشغل اغاني و قرآن في مجموعات التلجرام لو عاوز تشغل اغاني او قرآن ضفني في جروباك .    
 .
         """,
         reply_markup=InlineKeyboardMarkup(
