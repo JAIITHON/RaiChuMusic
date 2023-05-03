@@ -47,23 +47,23 @@ async def start(_, message: Message):
             [
                 [                   
                     InlineKeyboardButton(
-                        "الاوامر يبني ❔", callback_data="cbbasic"
+                        "الاوامر❔", callback_data="cbbasic"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "متلعبش ف دي يبني ❓", callback_data="cbhowtouse"
+                        " الشرح❓", callback_data="cbhowtouse"
                     ),
                   ],[
                     InlineKeyboardButton(
-                       "تحديثات البوت يحبيبي", url=f"https://t.me/{UPDATES_CHANNEL}"
+                       "قناة البوت", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                       "قناة البوت ملكش دعوه بيها", url=f"https://t.me/{GROUP_SUPPORT}"
+                       "جروب البوت", url=f"https://t.me/{GROUP_SUPPORT}"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "➕ ضفني ف رومك عشان اشغلك سكس واروق عليك ➕",
+                        "➕ ضفني في جروباك ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ]
