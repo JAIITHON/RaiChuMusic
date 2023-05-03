@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://telegra.ph/file/2ffa2964306bd1ecee48a.jpg">
 <h1> RaiChu Music </h1>
 
 telegram bot project for streaming video on telegram video chat, powered by [tgcalls](https://github.com/MarshalX/tgcalls) and [pyrogram](https://github.com/pyrogram/pyrogram)
