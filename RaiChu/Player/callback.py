@@ -76,7 +76,7 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""ℹ️ Command Menu
 
-🤷 » /id - To get user id
+🤷 » /id - لل حصول علي الايدي 
 
 👩🏻‍💼 » /tm - to get telegraph img link
 
@@ -92,7 +92,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 🤷 » /skip - To Skip current song
 
-🤷 » /repo - To get the repo of RaiChu-Music
+🤷 » /repo - To get the repo of Abo_Hadeda
 
 🙋 » /end - To end play song in vc.""",
         reply_markup=InlineKeyboardMarkup(
