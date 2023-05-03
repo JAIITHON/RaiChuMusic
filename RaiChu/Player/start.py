@@ -82,7 +82,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"مفيش يكسمك")
+                        " ʀᴇᴘᴏ ⚒️", url=f"لا يوجد ")
                 ]
             ]
         ),
